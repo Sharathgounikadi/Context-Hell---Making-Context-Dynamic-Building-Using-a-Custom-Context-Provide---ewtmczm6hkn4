@@ -6,10 +6,12 @@ import UserContext from '../contexts/UserContext';
 import ConfigContext from '../contexts/ConfigContext';
 
 const MyComponent = () => {
-  const {theme} = useContext(ThemeContext);
-  const {language} = useContext(LanguageContext);
-  const {user} = useContext(UserContext); 
-  const {config} = useContext(ConfigContext);
+
+    const {theme} = useContext(ThemeContext);
+    const {language} = useContext(LanguageContext);
+    const {user} = useContext(UserContext);
+    const {config} = useContext(ConfigContext);
+
   return (
     <div>
       <h1>My Component</h1>
